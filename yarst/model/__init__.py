@@ -1,6 +1,5 @@
 from __future__ import absolute_import
 
-from .stochastic_gradient_descent import StochasticGradientDescent
-from .alternating_least_square import AlternatingLeastSquare
-from .collaborative_filtering import CollaborativeFiltering
-from .recommender import Recommender
+from .als import ALS
+from .sgd import SGD
+from .cf import UserBasedCollaborativeFiltering
