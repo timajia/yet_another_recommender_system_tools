@@ -6,7 +6,7 @@ import numpy as np
 import scipy as sp
 import pandas as pd
 import sklearn.metrics as sk_metrics
-from .utilities import EPSILON
+from .env_setup import EPSILON
 
 
 #-----------------------------------------
